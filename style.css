@@ -10,14 +10,16 @@
 .clockbox,
 #clock {
     width: 100%;
+
 }
 
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: #000;
-    stroke-width: 9;
+    stroke: #000000;
+    stroke-width: 20;
     stroke-miterlimit: 10;
+
 }
 
 .mid-circle {
@@ -25,28 +27,28 @@
 }
 .hour-marks {
     fill: none;
-    stroke: #000;
-    stroke-width: 9;
+    stroke: #000000;
+    stroke-width: 10;
     stroke-miterlimit: 10;
 }
 
 .hour-arm {
     fill: none;
     stroke: #000;
-    stroke-width: 17;
+    stroke-width: 18;
     stroke-miterlimit: 10;
 }
 
 .minute-arm {
     fill: none;
-    stroke: #000;
-    stroke-width: 11;
+    stroke: #000000;
+    stroke-width: 12;
     stroke-miterlimit: 10;
 }
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: #000000;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
@@ -62,6 +64,6 @@
 #minute,
 #second {
     transform-origin: 300px 300px;
-    /*transition transform == for handles animation*/
+    /*transition transform is for handles animation*/
     /*transition: transform .5s ease-in-out;*/
 }
