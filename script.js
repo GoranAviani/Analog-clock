@@ -24,4 +24,4 @@ function runTheClock() {
 
 }
 
-const intervat = setInterval(runTheClock,1000)
+const interval = setInterval(runTheClock,1000)
